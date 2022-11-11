@@ -36,7 +36,7 @@ class calculator
 };
 int main()
 {
-	calculator add,subtract,divide,multiply;
+	calculator cal;
 	int choice;
 	cout<<"Choose any operator :"<<endl<<endl;
 	cout<<"1.Addition"<<endl;
@@ -47,19 +47,19 @@ int main()
 	cin>>choice;
 	if(choice == 1)
 	{
-		add.addition();
+		cal.addition();
 	}
 	else if(choice == 2)
 	{
-		subtract.subtraction();
+		cal.subtraction();
 	}
 	else if(choice == 3)
 	{
-		divide.division();
+		cal.division();
 	}
 	else if(choice == 4)
 	{
-		multiply.multiplication();
+		cal.multiplication();
 	}
 	else
 	{
